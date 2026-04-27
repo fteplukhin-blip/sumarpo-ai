@@ -1,0 +1,151 @@
+{
+  "last_modified": "2026-04-27T12:00:00Z",
+  "brand": {
+    "name": "Sumarpo",
+    "website": "https://eu.sumarpo.com/",
+    "ozon_store": "https://www.ozon.ru/seller/sumarpo/",
+    "telegram": "https://t.me/be_pro_with_Sumarpo/",
+    "description": "Бренд товаров для триатлона и плавания на открытой воде."
+  },
+
+  "sales_rules": {
+    "sell_only_sumarpo": true,
+    "mention_other_brands": false,
+    "style": "коротко, дружелюбно, уверенно, экспертно",
+    "goal": [
+      "подобрать модель",
+      "подобрать размер",
+      "перевести на Ozon",
+      "оформить покупку",
+      "подписать на Telegram"
+    ]
+  },
+
+  "products": [
+    {
+      "name": "ASPIRE",
+      "segment": "entry",
+      "price_from_rub": 26000,
+      "best_for": [
+        "новичок",
+        "первый гидрокостюм",
+        "ограниченный бюджет"
+      ],
+      "recommended_use": "тренировки, открытая вода, первый старт"
+    },
+    {
+      "name": "N-JOY",
+      "segment": "entry_plus",
+      "price_from_rub": 29000,
+      "best_for": [
+        "комфорт",
+        "первый серьёзный костюм",
+        "любитель"
+      ],
+      "recommended_use": "открытая вода, тренировки"
+    },
+    {
+      "name": "NOVA",
+      "segment": "entry_plus",
+      "price_from_rub": 32000,
+      "best_for": [
+        "новичок",
+        "открытая вода",
+        "универсальный выбор"
+      ],
+      "recommended_use": "заплывы, open water"
+    },
+    {
+      "name": "RACE",
+      "segment": "middle",
+      "price_from_rub": 42000,
+      "best_for": [
+        "первый старт",
+        "скорость",
+        "соревнования"
+      ],
+      "recommended_use": "триатлон, гонки"
+    },
+    {
+      "name": "VANGUARD",
+      "segment": "best_seller",
+      "price_from_rub": 52000,
+      "best_for": [
+        "самый популярный выбор",
+        "открытая вода",
+        "универсальность"
+      ],
+      "recommended_use": "тренировки, старты, длинные дистанции"
+    },
+    {
+      "name": "ELITE PRO",
+      "segment": "premium",
+      "price_from_rub": 68000,
+      "best_for": [
+        "длинная дистанция",
+        "высокий уровень",
+        "экономия сил"
+      ],
+      "recommended_use": "Ironman, марафонские заплывы"
+    },
+    {
+      "name": "VICTORY",
+      "segment": "flagship",
+      "price_from_rub": 79000,
+      "best_for": [
+        "лучший вариант",
+        "максимум технологий",
+        "топовый уровень"
+      ],
+      "recommended_use": "соревнования высокого уровня"
+    }
+  ],
+
+  "selection_logic": {
+    "budget_under_30000": ["ASPIRE", "N-JOY", "NOVA"],
+    "first_start": ["RACE", "VANGUARD"],
+    "open_water": ["NOVA", "VANGUARD"],
+    "best_choice": ["VICTORY"],
+    "long_distance": ["ELITE PRO"],
+    "beginner": ["NOVA", "N-JOY"]
+  },
+
+  "sizes": {
+    "note": "Точный размер подбирается по росту, весу и обхвату груди.",
+    "if_between_sizes": {
+      "tight_fit": "меньший размер",
+      "comfort_fit": "больший размер"
+    }
+  },
+
+  "faq": {
+    "where_to_buy": "Официальный магазин Ozon: https://www.ozon.ru/seller/sumarpo/",
+    "telegram": "Telegram Юлии Громовой: https://t.me/be_pro_with_Sumarpo/",
+    "price_answer": "Цена зависит от модели, размера и текущих акций.",
+    "availability_answer": "Актуальное наличие лучше смотреть в официальном магазине Ozon."
+  },
+
+  "objections": {
+    "expensive": "Хороший гидрокостюм служит несколько сезонов и влияет на комфорт, скорость и уверенность в воде.",
+    "thinking": "Если хотите, помогу выбрать лучший вариант именно под ваши задачи.",
+    "wrong_size": "Могу помочь подобрать размер максимально точно по параметрам."
+  },
+
+  "upsell": [
+    "очки Sumarpo",
+    "шапочка Sumarpo",
+    "буй Sumarpo",
+    "сумка Sumarpo"
+  ],
+
+  "partnership": {
+    "schools": "Сотрудничество со школами плавания рассматривается индивидуально.",
+    "bloggers": "Для сотрудничества нужны ссылка на аккаунт, охваты и формат размещения.",
+    "dealers": "Для дилерства нужны город, формат магазина и предполагаемый объём закупки."
+  },
+
+  "cta": {
+    "buy_now": "Оформить заказ можно в официальном магазине Ozon: https://www.ozon.ru/seller/sumarpo/",
+    "telegram_join": "Полезные советы по плаванию в Telegram: https://t.me/be_pro_with_Sumarpo/"
+  }
+}
